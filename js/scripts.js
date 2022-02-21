@@ -1,3 +1,8 @@
+/*
+    App Name: First Java JavaScript Application
+    Author: Panya Lim
+    Date: 02/21/22
+*/
 // STEP 1 Convert the following highlighted identifiers to Camel Case notation:
 let some_month; // let some_Month;
 function the Month(); // function the_Month();
