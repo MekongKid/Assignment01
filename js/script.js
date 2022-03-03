@@ -28,28 +28,39 @@
     // var x = 1; var y = 2; var z = (x + y) ^3;
     // let x = 2; let y = 4; let z = x + y * 2;
 
+
 // STEP 4. Declare (but do not assign) 9 variables for the following identifiers: First Name, Last Name, Address, City, State, Zip 
     /*Code, Your Age, Referral Source, May We Contact You. Use Camel Casing and Hungarian Notation when naming your 
     identifiers.*/
-    // firstName = Paul; lastName = Lim; Address = 355 First St.; City = San Diego; State = CA; zipCode = 92115; 
-    // yourAge = 21; ref_Source = school; contactInfo = 1234567;
+    //let firstName; let lastName; let address; let city; let zipCode; 
+    // let yourAge; let refSource; let mayWeContactYou;
+    // Hungerian example
+// let strFirstname, let strlastName, let blnMayWeContactYou, etc.
 // SETP 5. Take the 3 of the 9 variables that you created above and demonstrate 3 ways for declaring and assigning values to 
     // those variables.
         // let firstName = Paul; let lastName = Lim; let City = San Diego;
 // STEP 6. Create a variable. 
     // Add a number and a string and display the coerced result in the browser’s console window. 
         //let num = console.log('What is your number between 1 to 99');
+        // let num = 2 + "1"
+        // console.log(num)
 // STEP 7. Create two variables. 
     /*For the first variable, add a Boolean and a string and display the coerced result. 
     For the second variable, add a number and a Boolean and display the coerced result. */
         // 1. let myCatName = 'Floyd', isCatId = true;
         // 2. let myFavNum = 7; alert('Paul favorite number is' + myFavNum = 'true');
+    // let x = true + '10"
+    // let y = 10 + false
+    // console.log(x)
+    // console.log(y)
 
     // SETP 8. Is the following string literal valid? If not, how would you fix it?
     /* let someString = 'Who once said, "Only two things are infinite, the universe 
 and human stupidity, and I'm not sure about the former."';
 window.console.log(someString); */ 
-    // No. I would add \\ before "Only two things..." need line-terminator to escape sequence to a variable.
+    // No. I would add I\'m before "Only two things..." need line-terminator to escape sequence to a variable.
+    // add I\'m..
+    // console.log(someString);
 
 // STEP 9. Create a variable that produces a null value in the console window. 
         // let a * 2; let a * null; alert(a)
@@ -64,12 +75,14 @@ window.console.log(someString); */
         // let bike = { company:'Colngo'}; //create object
         // console.log(typeof bike); // returns object
         // console.log(typeof undefined); // return
+        // let x = 'Paul', let y = 2, let z = true, let s, let r = new object()
+   // console.log(typeof x, typeof y, typeof z, typeof z, typeof s, typeof r)
 
 // STEP 11. Within an alert box, use the concatenation operator (+) to display text in the alert box that appears as follows: 
     /*Hello Zak Ruvalcaba, welcome to the JavaScript class!
     Substitute my name for your name. Although not necessary in practice, I want you to use 2 concatenation operators 
     to construct this string of text. One after the text “Hello” and a second one after your name and before the comma.*/
-    // alert('Hello ' + 'PanYa Lim,' +  ' welcome to JS class!');
+    // alert('Hello' + PanYa Lim,' + 'welcome to JS class!');
 
 // STEP 12. Declare a variable called name and set it equal to your name.
     //Substitute your name in the previous alert string with the variable instead.
@@ -78,7 +91,7 @@ window.console.log(someString); */
 
 // STEP 13. Declare a variable called course and set it equal to “JavaScript”. 
     //Rework your alert string so that it displays the string of text but using the variables as opposed to hard coded text.
-    // let name = 'Panya'
+    // let $name = 'Panya'
     // let course = 'JavaScript!'
     // alert('Hello ' + $name + ', welcome to ' + course);
 
@@ -88,16 +101,24 @@ window.console.log(someString); */
 Welcome to the JavaScript class!*/
     //let name = 'Panya'
     //let course = 'JavaScript!'
-    //alert('Hello ' + name + ',\n welcome to ' + course);
+    //alert('Hello ' + name + ',\nWelcome to ' + course);
 
 // STEP 15. Replace the hardcoded string of your name with a prompt that asks the user for their name. The prompt’s response 
     //will now be captured in the name variable. 
     // let name = prompt(`what is your ${name}?`)
+
+    // let strName = prompt('Enter your name')
+    // let strCourse ='Javascript'
+    // alert('Hello' + strName + ',\nWelcome to the ' + strCourse + ' class!')
     
 
 // STEP 16. Replace the hardcoded string of the class you are taking with a prompt that asks the user for the class they are 
     //taking. The prompt’s response will now be captured in the course variable.
     // let course = prompt("what course are you taking?")
+ // let strName = prompt('Enter your name')
+    // let strCourse ='Javascript'
+    // alert('Hello' + strName + ',\nWelcome to the ' + strCourse + ' class!')
+    
 
 //STEP 17. Declare a variable called x and assign it a value of 10. 
     /*Declare a variable called y and assign it a value of 20. 
@@ -121,7 +142,7 @@ The result should be 100.*/
 // STEP 20. Declare a variable called x and assign it a value that equals the remainder of 20 divided by 3.
     /*Divide and assign 1 to that variable and display the result in the console window. 
 The result should be 2. If you got 6.66 try again.*/
-// let x = (20 / 3);  // need to solve this problem.
+// let x - 20 % 3 ;  // need to solve this problem.
 // x /= 1;
 // console.log(x);
 
